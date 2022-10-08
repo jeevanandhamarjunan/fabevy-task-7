@@ -59,7 +59,8 @@
 /*--------header--------*/     
 .head-menu{
         background-color:blue;
-        padding:10px;
+        padding-top:20px;
+        padding-bottom:20px;
 }
 .logo{
            background-color:black;
@@ -75,9 +76,9 @@
          
 
 .banner-section{
-    background-color: black;
-    height: 337px;
-    padding: 58px 0;
+    background-color: black;        
+    padding-top:70px;
+    padding-bottom:70px;
 }
 .banner-content{
             background-color: blue;
@@ -110,7 +111,8 @@
              
 }
 .service-section{
-            padding:20px 0px;
+                padding-top:20px;
+                padding-bottom:20px;
 }
 .service-logo{
        background-color:blue;
@@ -121,8 +123,8 @@
 
 .asset{      
          background-color: black;
-         height: 500px;
-         padding-top: 50px;
+         padding-top:50px;
+         padding-bottom:50px;
 }
 .asset-logo{
             background-color: blue;
@@ -135,9 +137,8 @@
 }
 .service{
          background-color:blue;
-         height:800px;
-         padding-top:20px;
-         padding-bottom:20px;
+         padding-top:50px;
+         padding-bottom:50px;
 }
 .service-content{
                  background-color:black;
@@ -151,8 +152,8 @@
 }
 .portfolio-section{
      background-color:black;
-     height:850px;
-     padding-top:20px;
+     padding-top:50px;
+     padding-bottom:50px;
 }
 .portofolio-content{
     background-color:blue;
@@ -171,8 +172,8 @@
 }
 .testimonials-section{
      background-color:blue;
-     height:500px;
-     padding-top:20px;
+     padding-top:40px;
+     padding-bottom:40px;
 }
 .testimonials-content{
     background-color:black;
@@ -186,8 +187,8 @@
 }
 .pricing-section{
      background-color:black;
-     height:700px;
-     padding-top:30px;
+     padding-top:40px;
+     padding-bottom:40px;
 }
 .pricing-content{
     background-color:blue;
@@ -215,8 +216,8 @@
 }
 .team-section{
      background-color:black;
-     height:500px;
      padding-top:40px;
+     padding-bottom:40px;
     
 }
 .team-content{
@@ -255,8 +256,8 @@
 }
 .bottom-section{
                 background-color:black;
-                padding-top:30px;
-                padding-bottom:30px;
+                padding-top:40px;
+                padding-bottom:40px;
 }
 .bottom-content{
                 background-color:blue;
@@ -264,8 +265,8 @@
 }
 .footer-section{
                 background-color:blue;
-                padding-top:20px;
-                padding-bottom:20px;
+                padding-top:40px;
+                padding-bottom:40px;
 }
 .footer-content{
               background-color: black;
