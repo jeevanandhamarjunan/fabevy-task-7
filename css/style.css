@@ -1,8 +1,11 @@
+body{
+     font-family: 'Merienda', cursive;
+     font-family: 'Raleway', sans-serif;
+}
 .container {
        width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
-	font-family: 'poppins',sans-serif;
 }
 .row {
 	display:flex;
@@ -64,7 +67,6 @@
 .header-content {
 	background: white;
     padding: 30px 0;
-	position: fixed;
     width: 100%;
 }
 .logo-nav{
@@ -164,21 +166,47 @@
 }
 /*-----banner-------------*/
 .banner-section{
-    background-color: black;        
+    background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(../image/hero-bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;        
     padding-top:70px;
     padding-bottom:70px;
+    height:550px;
 }
 .banner-content{
-            background-color: blue;
-            height: 200px;
+            
+            color:white;
+            max-width:45%;
+            
 }
-
+.banner-content >h1{
+           
+          font-size: 50px;
+          font-weight:700;
+}
+.banner-content >p{
+        margin-top:10px;
+        font-size:23px;
+        font-weight:200;
+        padding-bottom:55px;
+}
+.banner-content >a{
+        color:white;
+     	background: #e03a3c;
+	border-radius: 3px;
+	padding: 15px 35px;
+        margin-top:20px;
+        text-decoration:none;
+}
+/*-------------------------client-section------------*/
 .client-section{
-            padding:20px 0px;
+            padding-top:40px;
+            padding-bottom:40px;
 }
-.client-logo{
-       background-color:blue;
-       height:60px;
+.client-logo a img{
+           width:100px;
+           height:40px;
       
 } 
 
