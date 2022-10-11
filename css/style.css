@@ -67,6 +67,9 @@
 	position: fixed;
     width: 100%;
 }
+.logo-nav{
+    text-align:right;
+}
 .logo-name > a {
 	font-size: 30px;
 	font-weight: 600;
@@ -79,12 +82,11 @@
 .logo-nav ul > li {
 	display: inline-block;
 }
-.logo-nav li > a {
+.logo-nav li > a {  
     display: block;
-	font-size: 18px;
-	text-decoration: none;
-	padding: 0 13px;
-	color: black;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 13px;
 }
 .logo-nav li > a.home {
 	color: #e03a3c;
