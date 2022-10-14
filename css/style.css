@@ -318,7 +318,7 @@ html{
 }
 .asset{      
          padding-top:50px;
-         padding-bottom:50px;
+         padding-bottom:100px;
 }
 .asset-logo{ 
               position:relative;
@@ -376,18 +376,30 @@ html{
       width: 100%;
 }
 .service{
-         background-color:black;
-         padding-top:50px;
-         padding-bottom:50px;
+          background-color: #1b1b1b;
+          padding-top:50px;
+          padding-bottom:50px;
+                      
 }
+
 .service-content{
                  padding:20px;
                 color:white;
                 text-align:center;
 }
+.service-content h1:after{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    width: 4%;
+    border-bottom: solid 4px #e03a3c;
+                         
+}
 .service-content h1{
-     font-size: 34px;
-     padding-bottom: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
+    font-weight: 100;
 }
 /* .service-content >h1:after{
               position:relative;
@@ -395,8 +407,9 @@ html{
               top:10;
 } */
 .service-content p{
-                  color:#f1e7e7;
- }                          
+     color: #f1e7e7;
+    padding-top: 21px;                 
+}                          
 .service-icon{
      color:#f1e7e7;
     margin: 12px;
@@ -406,7 +419,7 @@ html{
     color: white;
 }
 .service-icon{
-position: relative;
+   position: relative;
     border: solid 1px #2c2929;
     background-color:#2c2929;
     padding: 50px 15px 50px 76px;
@@ -417,21 +430,39 @@ position: relative;
     font-size: 40px;
     color: #e03a3c;
 }
+.service-icon >p{
+    padding-top:10px;
+}
 .portfolio-section{
-     background-color:black;
-     padding-top:50px;
+     position:relative;
+     padding-top:100px;
      padding-bottom:50px;
 }
 .portofolio-content{
-    background-color:blue;
-    height:50px;
+    text-align:center;
     
 }
-.portofolio-logo{
-    background-color:blue;
-    height:50px;
-    margin:14px
+.portofolio-content h1:after{
+    content: "";
+    position: absolute;
+    top: 16%;
+    left: 48%;
+    width: 4%;
+    border-bottom: solid 4px #e03a3c;
+                         
 }
+.portofolio-content p{
+   padding-top:40px;
+}
+
+.portofolio-content h1{   font-size: 40px;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+
+.portofolio-logo{
+     padding-top:14px;
+    }
 .portfolio-icon{
     background-color: blue;
     height: 200px;
