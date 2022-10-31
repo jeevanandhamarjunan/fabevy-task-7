@@ -317,6 +317,9 @@
 .logo-name > a {
     font-size: 32px;
 }
+.logo-nav li > a{
+    padding:0 8px 0 8px;
+}
 .banner-content{
  text-align:left;
 }
