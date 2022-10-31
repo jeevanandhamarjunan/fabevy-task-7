@@ -260,53 +260,71 @@
 .container {
         width:990px;
 }
-.col-dd-1 {
+.d-none{
+ display:none;
+}
+.d-xs-none{
+ display:block;
+}
+.col-lg-1 {
 	width: 8.33%;
 	padding: 0 15px;
 }
-.col-dd-2 {
+.col-lg-2 {
 	width: 16.66%;
 	padding: 0 15px;
 }
-.col-dd-3 {
+.col-lg-3 {
 	width: 25%;
 	padding: 0 15px;
 }
-.col-dd-4 {
+.col-lg-4 {
 	width: 33.33%;
 	padding: 0 15px;
 }
-.col-dd-5 {
+.col-lg-5 {
 	width: 41.66%;
 	padding: 0 15px;
 }
-.col-dd-6 {
+.col-lg-6 {
 	width: 50%;
 	padding: 0 15px;
 }
-.col-dd-7 {
+.col-lg-7 {
 	width: 58.33%;
 	padding: 0 15px;
 }
-.col-dd-8 {
+.col-lg-8 {
 	width: 66.66%;
 	padding: 0 15px;
 }
-.col-dd-9 {
+.col-lg-9 {
 	width: 75%;
 	padding: 0 15px;
 }
-.col-dd-10 {
+.col-lg-10 {
 	width: 83.33%;
 	padding: 0 15px;
 }
-.col-dd-11 {
+.col-lg-11 {
 	width: 91.66%;
 	padding: 0 15px;
 }
-.col-dd-12 {
+.col-lg-12 {
 	width: 100%;
 	padding: 0 15px;
+}
+.logo-name > a {
+    font-size: 32px;
+}
+.banner-content{
+ text-align:left;
+}
+.abt-list-box {
+ margin-top: 0px;
+}
+.contact-info {
+    margin-top:0px;
 }
 } 
 
@@ -373,5 +391,11 @@
 }
 .banner-content{
  text-align:left;
+}
+.abt-list-box {
+ margin-top: 0px;
+}
+.contact-info {
+    margin-top:0px;
 }
 } 

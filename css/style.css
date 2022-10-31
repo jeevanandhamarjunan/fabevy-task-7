@@ -157,10 +157,9 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 144px;
+    margin-top: 104px;
+    padding-top: 24px;
     padding-bottom: 70px;
-
-
 }
 .banner-content{
             
