@@ -316,8 +316,8 @@ html{
               border:solid 1px #d5bebe;   
               padding-top: 28px;
               padding-bottom: 28px;
-              padding-left: 49px;
-              padding-right: 35px;
+              padding-left: 20px;
+              padding-right:20px;
 }
 .asset-logo i{
               font-size: 44px;
@@ -327,7 +327,7 @@ html{
               
               }
 .asset-logo p{
-       padding-left:80px;
+       padding-left:62px;
        font-weight:600;
 }
 .active-asset p{
@@ -342,17 +342,18 @@ html{
     border: solid 1px #d5bebe;
     padding-top: 28px;
     padding-bottom: 28px;
-    padding-left: 49px;
-    padding-right: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .active-asset i{
     font-size: 44px;
+    color:#fff;
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
 }
 .active-asset p{
-    padding-left: 80px;
+    padding-left: 66px;
     font-weight: 600;
 }
 .active-asset p:hover{

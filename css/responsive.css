@@ -318,7 +318,10 @@
 	padding: 0 15px;
 }
 .d-none{
- display:inline-block !important;
+ display:none;
+}
+.d-xs-none{
+ display:block;
 }
 .col-lg-1 {
 	width: 8.33%;
@@ -369,6 +372,6 @@
 	padding: 0 15px;
 }
 .banner-content{
- text-align:none;
+ text-align:left;
 }
 } 
