@@ -959,6 +959,9 @@ i.icofont-quote-left:last-child {
     padding: 12px;
     margin-top: 20px;    
 }
+.sbt{
+  text-align:center;
+}
 #cnt-button{
     font-size:16px;
     font-weight: 500;
