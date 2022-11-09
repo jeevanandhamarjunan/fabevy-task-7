@@ -91,10 +91,11 @@ html{
 	position: absolute;
 	top: 30px;
 	left: 0;
-	width: 170px;    
+	width: 148px;
+        padding-top:6px;    
 	background: white;
 	box-shadow: -2px -3px 4px lightgray;
-        height: 150px;	
+        height: 160px;	
 	border-radius: 5px;
 	transform: translateY(20px);
 	opacity: 0;
@@ -113,9 +114,9 @@ html{
 
 .sub-dropdown2 {
 	position: absolute;
-	top: 10px;
-	left: 164px;
-	min-width: 140px;
+	top: 35px;
+	left: 138px;
+	min-width: 138px;
 	background: white;
 	box-shadow: -2px -3px 4px lightgray;
         height: 130px;	
@@ -130,6 +131,7 @@ html{
 	font-size: 15px;
 }
 .drop-down-deep:hover .sub-dropdown2 {
+        padding-top: 9px;
 	opacity: 1;
 	transform: translateY(0);
 	visibility: visible;
