@@ -80,6 +80,7 @@ html{
 }
 .sub-dropdown1 .drop-down-deep{
    position:relative;
+   padding-right: 37px;
 }
 
 .sub-dropdown1 {
@@ -106,10 +107,11 @@ html{
 	transform: translateY(0);
 	visibility: visible;
 }
+
 .sub-dropdown2 {
 	position: absolute;
 	top: 10px;
-	left: 172px;
+	left: 164px;
 	min-width: 140px;
 	background: white;
 	box-shadow: -2px -3px 4px lightgray;
