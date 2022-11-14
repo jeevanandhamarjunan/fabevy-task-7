@@ -329,6 +329,9 @@
 .contact-info {
     margin-top:0px;
 }
+.about-content {
+  text-align:left;  
+}
 } 
 
 /*--------------large-device-------*/
