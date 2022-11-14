@@ -65,7 +65,7 @@ html{
        display: block;
 	font-size: 14px;
 	text-decoration: none;
-	padding: 0 13px;
+	padding: 0 8px;
 	color: black;
 }
 .logo-nav li > a.home {
@@ -204,11 +204,11 @@ html{
 .client-logo a img{
            width:100%;
            filter:grayscale(1);
-           opacity(0.5);
+           opacity:0.5;
 }
 .client-logo img:hover{
                     filter:grayscale(0);
-                    opacity(1);
+                    opacity:1;
 } 
 
 .about-section{
@@ -430,6 +430,7 @@ html{
 .service-content p{
      color: #f1e7e7;
     padding-top: 21px;                 
+    line-height: 24px;
 }                          
 .service-icon{
      color:#f1e7e7;
@@ -476,6 +477,7 @@ html{
 }
 .portofolio-content p{
    padding-top:40px;
+   line-height: 24px;
 }
 
 .portofolio-content h1{   font-size: 40px;
@@ -594,6 +596,7 @@ a.active-nav{
 }
 .testimonials-content p{
   padding-top: 20px;
+  line-height: 24px;
 }
 .testimonials-content h2:after{
     content: "";
@@ -686,7 +689,8 @@ i.icofont-quote-left:last-child {
                          
 }
 .pricing-content p{
-    padding-top:40px;
+   padding-top:40px;
+   line-height: 24px;
 }
 
 .pricing-icons{
@@ -801,6 +805,7 @@ i.icofont-quote-left:last-child {
 }
 .team-content p{
    font-size:16px;
+   line-height: 24px;
 }
 .team-section:after{
     content: "";
@@ -817,7 +822,7 @@ i.icofont-quote-left:last-child {
 .team-content h2:after{
     content: "";
     position: absolute;
-    top: 14%;
+    top: 12%;
     left: 48%;
     width: 4%;
     border-bottom:solid 4px #e03a3c;
@@ -918,7 +923,7 @@ i.icofont-quote-left:last-child {
 .contact-head-detail h2:after{   
     content: "";
     position: absolute;
-    top: 46%;
+    top: 42%;
     left: 48%;
     width: 4%;
     border-bottom:solid 4px #e03a3c;
@@ -926,6 +931,7 @@ i.icofont-quote-left:last-child {
 .contact-head-detail p{
  color:#484646;
  padding-top:30px;
+ line-height: 24px;
 }
 .contact-address{
     text-align: center;
