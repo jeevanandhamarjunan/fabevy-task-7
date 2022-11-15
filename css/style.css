@@ -282,12 +282,12 @@ html{
                 padding-bottom:50px;
 }
 .service-logo{
+    position: relative;
     border: 1px solid white;
     box-shadow: 0px 1px 31px #af9f9f8f;
     text-align: center;
     padding-top: 26px;
     padding-bottom:20px;
-    position: relative;
 } 
 .service-logo i{
     position: absolute;
@@ -320,6 +320,7 @@ html{
               padding-bottom: 28px;
               padding-left: 20px;
               padding-right:20px;
+              margin-bottom: 18px;
 }
 .asset-logo i{
               font-size: 44px;
@@ -336,8 +337,8 @@ html{
     color:#f9e7e7
 }
 .active-asset{
-                     background-color:#e03a3c;
-                     color:#fff;
+        background-color:#e03a3c;
+        color:#fff;
 }    
 .active-asset{
     position: relative;
@@ -445,6 +446,8 @@ html{
     border: solid 1px #2c2929;
     background-color:#2c2929;
     padding: 50px 15px 50px 76px;
+    min-height: 220px;
+    margin-bottom: 34px;
 }
 .service-icon i{
     position: absolute;
@@ -1092,6 +1095,12 @@ i.icofont-quote-left:last-child {
     padding: 8px;
 }
 
+.bottom-content-2{
+ display:inline-block;
+}
+.bottom-content-2 ul li{
+  list-style:none;
+}
 .bottom-content-3 p{
    font-size: 16px;
     font-weight: 100;
@@ -1157,3 +1166,5 @@ i.icofont-quote-left:last-child {
  background-color:#e03a3c;
  border-radius:4px;
 }
+
+
