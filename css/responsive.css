@@ -395,14 +395,26 @@
 .abt-list-box {
  margin-top: 0px;
 }
+.d-lg-block{
+  display:block;
+}
 .contact-info {
     margin-top:0px;
+}
+.testimonials-icons {
+    height: 330px;
 }
 .about-content {
   text-align:left;  
 }
 .trm-id h4 {
     font-size: 13px;
+}
+.trm-id h4 {
+    font-size: 17px;
+}
+.flex-direction-column-reverse{
+  flex-direction:unset;
 }
 } 
 
@@ -467,6 +479,9 @@
 	width: 100%;
 	padding: 0 15px;
 }
+.logo-nav li > a {
+    padding: 0 11px;
+}
 .banner-content{
  text-align:left;
 }
@@ -479,4 +494,10 @@
 .d-lg-block{
    display:block;
 }
+.trm-id h4 {
+    font-size: 17px;
+}
+.flex-direction-column-reverse{
+  flex-direction:unset;
+}  
 } 

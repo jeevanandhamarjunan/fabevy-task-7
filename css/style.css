@@ -16,6 +16,9 @@ html{
   width:100%;
   padding:0 15px;
 }
+.flex-direction-column-reverse{
+  flex-direction:column-reverse;
+}
 .btn a{ 
     display: inline-block;
     text-decoration: none;
@@ -446,7 +449,6 @@ html{
     border: solid 1px #2c2929;
     background-color:#2c2929;
     padding: 50px 15px 50px 76px;
-    min-height: 220px;
     margin-bottom: 34px;
 }
 .service-icon i{
@@ -613,7 +615,7 @@ a.active-nav{
 .trm-icn img{   
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-left:12px;
 }    
 .trm-id{
@@ -1166,5 +1168,8 @@ i.icofont-quote-left:last-child {
  background-color:#e03a3c;
  border-radius:4px;
 }
-
+.up-arrow:hover{
+ background-color:#ed5d5f;
+ border:#ed5d5f;
+}
 
